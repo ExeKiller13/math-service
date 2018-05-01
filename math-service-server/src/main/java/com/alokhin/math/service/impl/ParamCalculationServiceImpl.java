@@ -8,7 +8,7 @@ import static org.apache.commons.lang3.StringUtils.repeat;
 
 @Service
 public class ParamCalculationServiceImpl implements ParamCalculationService {
-
+//somecoments
     // cos(1-cos(2+cos(3-cos(4+ ... cos(n)))) ...)
     @Cacheable ("paramsCache")
     @Override
